@@ -1,0 +1,14 @@
+{
+"ValidData":{
+"email":"masteradmin@gmail.com",
+"password":"1"
+},
+"InValidData":{
+"email":"masteradmingmail.com",
+"password":"123456"
+},
+"BlankData":{
+"email":"",
+"password":""
+}
+}

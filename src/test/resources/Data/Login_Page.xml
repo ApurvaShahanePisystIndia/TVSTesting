@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="signIn" verbose="1" >
+ <!--<listeners> -->
+       <!--<listener class-name="listeners.TestListener"/> -->
+      <!--  <listener class-name="resources.ExtentReporterNG"/>   -->    
+<!-- </listeners> --> 
+  <test name="TVS_Login_Page_TestCase" >  
+  <parameter name ="browser" value = "chrome"/>
+   <parameter name ="url" value = "http://products.pisystindia.com/Showroom/admin/login"/>
+    <classes>
+       <class name="TestCase.TVS_Login_Page_TestCase" />
+    </classes>
+  </test>
+ </suite>
