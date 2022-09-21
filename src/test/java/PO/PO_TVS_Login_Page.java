@@ -1,6 +1,4 @@
 package PO;
-
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,7 +30,7 @@ public class PO_TVS_Login_Page {
 	public void LoginEmail(String args)
 	{
 		Txt_Login_Email.sendKeys(args);
-		Txt_Login_Email.sendKeys(Keys.TAB);
+		
 		
 	}
 	public void LoginPassword(String args)
