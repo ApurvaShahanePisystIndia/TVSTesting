@@ -129,7 +129,7 @@ public class PO_TVS_Login_Page {
 		Thread.sleep(500);
 		Assert.assertEquals(true,Txt_Login_Title.isDisplayed());
 	}
-	
+	*/
 	//8
 	
 	public void SignIn_Blank_Email_Valid_Password(String Email,String Password) throws InterruptedException
@@ -154,6 +154,6 @@ public class PO_TVS_Login_Page {
 		Thread.sleep(500);
 		Assert.assertEquals(true,Txt_Login_Title.isDisplayed());
 	}
-	*/
+	
 	
 }
