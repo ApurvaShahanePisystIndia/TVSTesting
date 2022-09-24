@@ -54,7 +54,7 @@ public class PO_TVS_Login_Page {
 		Thread.sleep(500);
 		Assert.assertEquals(true,Txt_DashBoard_Title.isDisplayed());
 	}
-	
+	/*
 	//2 Invalid Data
 	public void SignIn_InValid_Data(String Email,String Password) throws InterruptedException
 	{
@@ -154,6 +154,6 @@ public class PO_TVS_Login_Page {
 		Thread.sleep(500);
 		Assert.assertEquals(true,Txt_Login_Title.isDisplayed());
 	}
-	
+	*/
 	
 }
