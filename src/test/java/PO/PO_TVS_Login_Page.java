@@ -5,10 +5,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
 
-public class PO_TVS_Login_Page {
+public class Po_TVS_Login_Page {
 	WebDriver driver;
 	
-	public PO_TVS_Login_Page(WebDriver driver)
+	public Po_TVS_Login_Page(WebDriver driver)
 	{
 		this.driver=driver;
 		

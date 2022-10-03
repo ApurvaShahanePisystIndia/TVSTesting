@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 import Utility.BrowserManager; 
-import PO.PO_TVS_Login_Page;
+import PO.Po_TVS_Login_Page;
 
 public class TVS_Login_Page_TestCase {
 	WebDriver driver;
@@ -51,9 +51,10 @@ public class TVS_Login_Page_TestCase {
 	{
 		String Email= Login_Page.getJSONObject("ValidData").getString("email");
 		String Password =Login_Page.getJSONObject("ValidData").getString("password");
-		PO_TVS_Login_Page obj = PageFactory.initElements(driver,PO_TVS_Login_Page.class);
+		Po_TVS_Login_Page obj = PageFactory.initElements(driver,Po_TVS_Login_Page.class);
 		obj.SignIn_Valid_Data(Email, Password);
 	}
+	/*
 	
 	@Test(priority=2)
 	public void Sign_In_InValid_Data() throws InterruptedException
@@ -135,6 +136,7 @@ public class TVS_Login_Page_TestCase {
 		
 		obj.SignIn_Blank_Email_InValid_Password(Email, Password);
 	}
+	*/
 	
 	@AfterMethod
 	public void Tear_Down()
