@@ -1,7 +1,6 @@
 package TestCase;
 import java.io.InputStream;
-import org.json.JSONObject;
-import org.json.JSONTokener;
+import org.json.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations. *;
@@ -45,7 +44,7 @@ public class TVS_Login_Page_TestCase {
 		driver.manage().window().maximize();
 	}
 	@Test(priority=1)
-	public void Sign_In_Valid_Data() throws InterruptedException
+	public void Valid_Data() throws InterruptedException
 	{
 		String Email= Login_Page.getJSONObject("ValidData").getString("email");
 		String Password =Login_Page.getJSONObject("ValidData").getString("password");
