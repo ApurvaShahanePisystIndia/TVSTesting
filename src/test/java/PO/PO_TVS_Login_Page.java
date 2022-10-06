@@ -4,11 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
-
 public class Po_TVS_Login_Page {
 	WebDriver driver;
-	
-	public Po_TVS_Login_Page(WebDriver driver)
+		public Po_TVS_Login_Page(WebDriver driver)
 	{
 		this.driver=driver;
 		
@@ -22,7 +20,7 @@ public class Po_TVS_Login_Page {
 	@FindBy(how=How.XPATH, using ="//h4[text()='Dashboard']")
 	WebElement Txt_DashBoard_Title;
 	
-	@FindBy(how=How.XPATH, using ="//h2[text()=' TVS']")
+	@FindBy(how=How.XPATH, using ="//span [@class='titleup']")
 	WebElement Txt_Login_Title;
 	
 	
@@ -36,11 +34,18 @@ public class Po_TVS_Login_Page {
 	public void LoginPassword(String args)
 	{
 		Txt_Login_Password.sendKeys(args);
-		
+	
 	}
 	public void SignIn()
 	{
 		Btn_Sign_In.click();
+	}
+	public String verifytitle()
+	{
+		String MyTitle = driver.getTitle();
+		System.out.println("My Page Title  = "+MyTitle);
+		return MyTitle;
+		
 	}
 	//Scenario
 	//1 . Valid Data
@@ -52,7 +57,7 @@ public class Po_TVS_Login_Page {
 		Thread.sleep(500);
 		SignIn();
 		Thread.sleep(500);
-		Assert.assertEquals(true,Txt_DashBoard_Title.isDisplayed());
+		Assert.assertEquals(verifytitle(),"TVS");
 	}
 	/*
 	//2 Invalid Data
@@ -157,3 +162,20 @@ public class Po_TVS_Login_Page {
 	
 	
 }
+
+
+
+
+/*
+colour btn    //a [@href='http://192.168.1.13/showroom/admin/Vehicle/vehicleColor'] 
+add colour    //a [@class='btn btn-primary btn-flat btn-sm float-right']
+click on varient //select [@id='vehicleVariant']
+click on colour	//input [@id='vehicleColor']
+submit button     (//i [@class='fa fa-check-circle'])[1]
+ok                //button [@class='swal2-confirm swal2-styled']
+
+
+
+
+
+*/

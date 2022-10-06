@@ -3,13 +3,13 @@
 <suite name="Failed suite [signIn]">
   <test thread-count="5" name="TVS_Login_Page_TestCase(failed)">
     <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="http://products.pisystindia.com/Showroom/admin/login"/>
+    <parameter name="url" value="http://192.168.1.13/showroom/admin/login"/>
     <classes>
       <class name="TestCase.TVS_Login_Page_TestCase">
         <methods>
+          <include name="Sign_In_Valid_Data"/>
           <include name="beforeClass"/>
           <include name="setup"/>
-          <include name="Sign_In_ValidEmail_InvalidPassword"/>
         </methods>
       </class> <!-- TestCase.TVS_Login_Page_TestCase -->
     </classes>

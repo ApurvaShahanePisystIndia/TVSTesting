@@ -7,5 +7,5 @@
     <classes>
       <class name="TestCase.TVS_Login_Page_TestCase"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 

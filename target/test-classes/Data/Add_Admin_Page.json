@@ -1,0 +1,95 @@
+{
+"ValidData":
+{
+	"loginemail":"masteradmin@gmail.com",
+	"loginpassword":"1",
+	"firstname":"Apurva",
+	"middlename":"Abhay",
+	"lastname":"Shahane",
+	"adminemail":"aaaapu@gmail.com",
+	"adminpassword":"123456aA@",
+	"confirmpassword":"123456aA@",
+	"phonenumber" :"8208146369",
+	"date" :"06-10-2022",
+	"branch" :"Pune Automobiles",
+	"gender" :"Female",
+	"country":"India",
+	"state":"Maharashtra",
+	"city":"Nashik",
+	"address":"H.No 1522,Near Bank of Baroda"
+
+},
+"InValidData":
+{
+	"loginemail":"masteradmin@gmail.com",
+	"loginpassword":"1",
+	"firstname":"Ap 123",
+	"middlename":"Abhay",
+	"lastname":"Shahane",
+	"adminemail":"aaaapugmail.com",
+	"adminpassword":"123",
+	"confirmpassword":"123456aA@",
+	"phonenumber" :"8208146369",
+	"date" :"06-10-202",
+	"branch" :"Pune Automobiles",
+	"gender" :"Females",
+	"country":"Indi12",
+	"state":"Maharashtra56",
+	"city":"Nashik1",
+	"address":"H.No 1522,Near Bank of Baroda"
+
+},
+"BlankData":
+{
+	"loginemail":"",
+	"loginpassword":"",
+	"firstname":"",
+	"middlename":"",
+	"lastname":"",
+	"adminemail":"",
+	"adminpassword":"",
+	"confirmpassword":"",
+	"phonenumber" :"",
+	"date" :"",
+	"branch" :"",
+	"gender" :"",
+	"country":"",
+	"state":"",
+	"city":"",
+	"address":""
+
+},
+"DoubleSpaceData":
+{
+	"loginemail":"    ",
+	"loginpassword":"  ",
+	"firstname":"   ",
+	"middlename":" ",
+	"lastname":"  ",
+	"adminemail":"  ",
+	"adminpassword":"  ",
+	"confirmpassword":"  ",
+	"phonenumber" :"  ",
+	"date" :"  ",
+	"branch" :"   ",
+	"gender" :"  ",
+	"country":"  ",
+	"state":"  ",
+	"city":"  ",
+	"address":"  "
+
+}
+
+
+
+
+
+
+}
+
+	
+	
+	
+	
+	
+	
