@@ -34,6 +34,7 @@ public class PO_TVS_Admin_Add_Admin
 	WebElement txt_Lastname;
 	@FindBy(how=How.XPATH,using ="//input[@id='email']")
 	WebElement txt_Email;
+	
 	@FindBy(how=How.XPATH,using ="//input[@id='password']")
 	WebElement Txt_Password;
 	@FindBy(how=How.XPATH,using ="//input[@id='confirmpassword']")
@@ -302,25 +303,37 @@ public class PO_TVS_Admin_Add_Admin
 		LoginEmail(LoginEmail);
 		LoginPassword(LoginPassword);
 		SignIn();
+		Thread.sleep(2000);
 		Btn_User();
 		System.out.println("Clicked user");
 		Btn_Admin();
+		Thread.sleep(2000);
 		Btn_Add_Admin();
+		Thread.sleep(1000);
 		Enter_FirstName(FirstName);
+		Thread.sleep(500);
 		Enter_MiddleName(MiddleName);
+		Thread.sleep(500);
 		Enter_LastName(LastName);
+		Thread.sleep(1000);
 		Enter_Email(AdminEmail);
 		Enter_Password(AdminPassword);
+		Thread.sleep(1000);
 		Enter_Confirm_Password(ConfirmPassword);
 		Enter_Phone_Number(PhoneNumber);
+		Thread.sleep(1000);
 		Enter_Date(Date);
 		Branch(Branch);
+		Thread.sleep(1000);
 		Gender(Gender);
 		Enter_Country(Country);
+		Thread.sleep(1000);
 		Enter_State(State);
 		Enter_City(City);
+		Thread.sleep(2000);
 		Enter_Address(Address);
 		Click_Submit();
+		Thread.sleep(500);
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 		Assert.assertEquals(true,Page_Title.isDisplayed());
 		VerifyTitle();
@@ -330,9 +343,9 @@ public class PO_TVS_Admin_Add_Admin
 			e.printStackTrace();
 		}
 }	
-	// 4 Spaces 
+	// 4 Double Spaces 
 	@SuppressWarnings("deprecation")
-	public void Spaces_Data(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
+	public void Double_Spaces_Data(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
 			String AdminPassword,String ConfirmPassword,String PhoneNumber,String Date,String Branch,String Gender,String Country,
 			String State,String City,String Address)
 	{
@@ -341,27 +354,40 @@ public class PO_TVS_Admin_Add_Admin
 			LoginEmail(LoginEmail);
 			LoginPassword(LoginPassword);
 			SignIn();
+			Thread.sleep(2000);
 			Btn_User();
+			System.out.println("Clicked user");
 			Btn_Admin();
+			Thread.sleep(2000);
 			Btn_Add_Admin();
+			Thread.sleep(1000);
 			Enter_FirstName(FirstName);
+			Thread.sleep(500);
 			Enter_MiddleName(MiddleName);
+			Thread.sleep(500);
 			Enter_LastName(LastName);
+			Thread.sleep(1000);
 			Enter_Email(AdminEmail);
 			Enter_Password(AdminPassword);
+			Thread.sleep(1000);
 			Enter_Confirm_Password(ConfirmPassword);
 			Enter_Phone_Number(PhoneNumber);
+			Thread.sleep(1000);
 			Enter_Date(Date);
 			Branch(Branch);
+			Thread.sleep(1000);
 			Gender(Gender);
 			Enter_Country(Country);
+			Thread.sleep(1000);
 			Enter_State(State);
 			Enter_City(City);
+			Thread.sleep(2000);
 			Enter_Address(Address);
 			Click_Submit();
-		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-		Assert.assertEquals(true,Page_Title.isDisplayed());
-		VerifyTitle();
+			Thread.sleep(500);
+			driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+			Assert.assertEquals(true,Page_Title.isDisplayed());
+			VerifyTitle();
 	} 
 		catch(Exception e)
 		{
@@ -380,31 +406,43 @@ public class PO_TVS_Admin_Add_Admin
 		
 	try
 	{
-	LoginEmail(LoginEmail);
-	LoginPassword(LoginPassword);
-	SignIn();
-	Btn_User();
-	System.out.println("Clicked user");
-	Btn_Admin();
-	Btn_Add_Admin();
-	Enter_FirstName(FirstName);
-	Enter_MiddleName(MiddleName);
-	Enter_LastName(LastName);
-	Enter_Email(AdminEmail);
-	Enter_Password(AdminPassword);
-	Enter_Confirm_Password(ConfirmPassword);
-	Enter_Phone_Number(PhoneNumber);
-	Enter_Date(Date);
-	Branch(Branch);
-	Gender(Gender);
-	Enter_Country(Country);
-	Enter_State(State);
-	Enter_City(City);
-	Enter_Address(Address);
-	Click_Submit();
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-	Assert.assertEquals(true,Page_Title.isDisplayed());
-	VerifyTitle();
+		LoginEmail(LoginEmail);
+		LoginPassword(LoginPassword);
+		SignIn();
+		Thread.sleep(2000);
+		Btn_User();
+		System.out.println("Clicked user");
+		Btn_Admin();
+		Thread.sleep(2000);
+		Btn_Add_Admin();
+		Thread.sleep(1000);
+		Enter_FirstName(FirstName);
+		Thread.sleep(500);
+		Enter_MiddleName(MiddleName);
+		Thread.sleep(500);
+		Enter_LastName(LastName);
+		Thread.sleep(1000);
+		Enter_Email(AdminEmail);
+		Enter_Password(AdminPassword);
+		Thread.sleep(1000);
+		Enter_Confirm_Password(ConfirmPassword);
+		Enter_Phone_Number(PhoneNumber);
+		Thread.sleep(1000);
+		Enter_Date(Date);
+		Branch(Branch);
+		Thread.sleep(1000);
+		Gender(Gender);
+		Enter_Country(Country);
+		Thread.sleep(1000);
+		Enter_State(State);
+		Enter_City(City);
+		Thread.sleep(2000);
+		Enter_Address(Address);
+		Click_Submit();
+		Thread.sleep(500);
+		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		Assert.assertEquals(true,Page_Title.isDisplayed());
+		VerifyTitle();
 	}
 	catch(Exception e)
 	{
@@ -425,30 +463,43 @@ public class PO_TVS_Admin_Add_Admin
 		
 	try
 	{
-	LoginEmail(LoginEmail);
-	LoginPassword(LoginPassword);
-	SignIn();
-	Btn_User();
-	Btn_Admin();
-	Btn_Add_Admin();
-	Enter_FirstName(FirstName);
-	Enter_MiddleName(MiddleName);
-	Enter_LastName(LastName);
-	Enter_Email(AdminEmail);
-	Enter_Password(AdminPassword);
-	Enter_Confirm_Password(ConfirmPassword);
-	Enter_Phone_Number(PhoneNumber);
-	Enter_Date(Date);
-	Branch(Branch);
-	Gender(Gender);
-	Enter_Country(Country);
-	Enter_State(State);
-	Enter_City(City);
-	Enter_Address(Address);
-	Click_Submit();
-	driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
-	Assert.assertEquals(true,Page_Title.isDisplayed());
-	VerifyTitle();
+		LoginEmail(LoginEmail);
+		LoginPassword(LoginPassword);
+		SignIn();
+		Thread.sleep(2000);
+		Btn_User();
+		System.out.println("Clicked user");
+		Btn_Admin();
+		Thread.sleep(2000);
+		Btn_Add_Admin();
+		Thread.sleep(1000);
+		Enter_FirstName(FirstName);
+		Thread.sleep(500);
+		Enter_MiddleName(MiddleName);
+		Thread.sleep(500);
+		Enter_LastName(LastName);
+		Thread.sleep(1000);
+		Enter_Email(AdminEmail);
+		Enter_Password(AdminPassword);
+		Thread.sleep(1000);
+		Enter_Confirm_Password(ConfirmPassword);
+		Enter_Phone_Number(PhoneNumber);
+		Thread.sleep(1000);
+		Enter_Date(Date);
+		Branch(Branch);
+		Thread.sleep(1000);
+		Gender(Gender);
+		Enter_Country(Country);
+		Thread.sleep(1000);
+		Enter_State(State);
+		Enter_City(City);
+		Thread.sleep(2000);
+		Enter_Address(Address);
+		Click_Submit();
+		Thread.sleep(500);
+		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		Assert.assertEquals(true,Page_Title.isDisplayed());
+		VerifyTitle();
 	}
 	catch(Exception e)
 	{
@@ -457,166 +508,8 @@ public class PO_TVS_Admin_Add_Admin
 	}
 	
 	
-	//7:   Future DOB is selected valid
-
+	//7:Address with Double Space
 	@SuppressWarnings("deprecation")
-	public void DOB__Future_Date_Valid(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
-			String AdminPassword,String ConfirmPassword,String PhoneNumber,String Date,String Branch,String Gender,String Country,
-			String State,String City,String Address)
-	{
-		
-	try
-	{
-	LoginEmail(LoginEmail);
-	LoginPassword(LoginPassword);
-	SignIn();
-	Btn_User();
-	Btn_Admin();
-	Btn_Add_Admin();
-	Enter_FirstName(FirstName);
-	Enter_MiddleName(MiddleName);
-	Enter_LastName(LastName);
-	Enter_Email(AdminEmail);
-	Enter_Password(AdminPassword);
-	Enter_Confirm_Password(ConfirmPassword);
-	Enter_Phone_Number(PhoneNumber);
-	Enter_Date(Date);
-	Branch(Branch);
-	Gender(Gender);
-	Enter_Country(Country);
-	Enter_State(State);
-	Enter_City(City);
-	Enter_Address(Address);
-	Click_Submit();
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-	Assert.assertEquals(true,Page_Title.isDisplayed());
-	VerifyTitle();
-	}
-	catch(Exception e)
-	{
-		e.printStackTrace();
-	}
-	}
-	
-	//8 : Invalid Date is pass 
-
-	@SuppressWarnings("deprecation")
-	public void DOB__Future_Date_InValid(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
-			String AdminPassword,String ConfirmPassword,String PhoneNumber,String Date,String Branch,String Gender,String Country,
-			String State,String City,String Address)
-	{
-		
-	try
-	{
-	LoginEmail(LoginEmail);
-	LoginPassword(LoginPassword);
-	SignIn();
-	Btn_User();
-	Btn_Admin();
-	Btn_Add_Admin();
-	Enter_FirstName(FirstName);
-	Enter_MiddleName(MiddleName);
-	Enter_LastName(LastName);
-	Enter_Email(AdminEmail);
-	Enter_Password(AdminPassword);
-	Enter_Confirm_Password(ConfirmPassword);
-	Enter_Phone_Number(PhoneNumber);
-	Enter_Date(Date);
-	Branch(Branch);
-	Gender(Gender);
-	Enter_Country(Country);
-	Enter_State(State);
-	Enter_City(City);
-	Enter_Address(Address);
-	Click_Submit();
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-	Assert.assertEquals(true,Page_Title.isDisplayed());
-	VerifyTitle();
-	}
-	catch(Exception e)
-	{
-		e.printStackTrace();
-	}
-	}
-	
-	//9: Blank Date all valid 
-	
-	public void DOB__Future_Date_Blank_And_All_Valid(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
-			String AdminPassword,String ConfirmPassword,String PhoneNumber,String Date,String Branch,String Gender,String Country,
-			String State,String City,String Address)
-	{
-		
-	try
-	{
-	LoginEmail(LoginEmail);
-	LoginPassword(LoginPassword);
-	SignIn();
-	Btn_User();
-	Btn_Admin();
-	Btn_Add_Admin();
-	Enter_FirstName(FirstName);
-	Enter_MiddleName(MiddleName);
-	Enter_LastName(LastName);
-	Enter_Email(AdminEmail);
-	Enter_Password(AdminPassword);
-	Enter_Confirm_Password(ConfirmPassword);
-	Enter_Phone_Number(PhoneNumber);
-	Enter_Date(Date);
-	Branch(Branch);
-	Gender(Gender);
-	Enter_Country(Country);
-	Enter_State(State);
-	Enter_City(City);
-	Enter_Address(Address);
-	Click_Submit();
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-	Assert.assertEquals(true,Page_Title.isDisplayed());
-	VerifyTitle();
-	}
-	catch(Exception e)
-	{
-		e.printStackTrace();
-	}
-	}
-	// 10: Address more than 255 character
-	public void Address_Invalid_More_Than_255_Character(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
-			String AdminPassword,String ConfirmPassword,String PhoneNumber,String Date,String Branch,String Gender,String Country,
-			String State,String City,String Address)
-	{
-		
-	try
-	{
-	LoginEmail(LoginEmail);
-	LoginPassword(LoginPassword);
-	SignIn();
-	Btn_User();
-	Btn_Admin();
-	Btn_Add_Admin();
-	Enter_FirstName(FirstName);
-	Enter_MiddleName(MiddleName);
-	Enter_LastName(LastName);
-	Enter_Email(AdminEmail);
-	Enter_Password(AdminPassword);
-	Enter_Confirm_Password(ConfirmPassword);
-	Enter_Phone_Number(PhoneNumber);
-	Enter_Date(Date);
-	Branch(Branch);
-	Gender(Gender);
-	Enter_Country(Country);
-	Enter_State(State);
-	Enter_City(City);
-	Enter_Address(Address);
-	Click_Submit();
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-	Assert.assertEquals(true,Page_Title.isDisplayed());
-	VerifyTitle();
-	}
-	catch(Exception e)
-	{
-		e.printStackTrace();
-	}
-	}
-	//11:Address with Double Space
 	public void Address_With_Double_Spaces(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
 			String AdminPassword,String ConfirmPassword,String PhoneNumber,String Date,String Branch,String Gender,String Country,
 			String State,String City,String Address)
@@ -624,30 +517,152 @@ public class PO_TVS_Admin_Add_Admin
 		
 	try
 	{
-	LoginEmail(LoginEmail);
-	LoginPassword(LoginPassword);
-	SignIn();
-	Btn_User();
-	Btn_Admin();
-	Btn_Add_Admin();
-	Enter_FirstName(FirstName);
-	Enter_MiddleName(MiddleName);
-	Enter_LastName(LastName);
-	Enter_Email(AdminEmail);
-	Enter_Password(AdminPassword);
-	Enter_Confirm_Password(ConfirmPassword);
-	Enter_Phone_Number(PhoneNumber);
-	Enter_Date(Date);
-	Branch(Branch);
-	Gender(Gender);
-	Enter_Country(Country);
-	Enter_State(State);
-	Enter_City(City);
-	Enter_Address(Address);
-	Click_Submit();
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-	Assert.assertEquals(true,Page_Title.isDisplayed());
-	VerifyTitle();
+		LoginEmail(LoginEmail);
+		LoginPassword(LoginPassword);
+		SignIn();
+		Thread.sleep(2000);
+		Btn_User();
+		System.out.println("Clicked user");
+		Btn_Admin();
+		Thread.sleep(2000);
+		Btn_Add_Admin();
+		Thread.sleep(1000);
+		Enter_FirstName(FirstName);
+		Thread.sleep(500);
+		Enter_MiddleName(MiddleName);
+		Thread.sleep(500);
+		Enter_LastName(LastName);
+		Thread.sleep(1000);
+		Enter_Email(AdminEmail);
+		Enter_Password(AdminPassword);
+		Thread.sleep(1000);
+		Enter_Confirm_Password(ConfirmPassword);
+		Enter_Phone_Number(PhoneNumber);
+		Thread.sleep(1000);
+		Enter_Date(Date);
+		Branch(Branch);
+		Thread.sleep(1000);
+		Gender(Gender);
+		Enter_Country(Country);
+		Thread.sleep(1000);
+		Enter_State(State);
+		Enter_City(City);
+		Thread.sleep(2000);
+		Enter_Address(Address);
+		Click_Submit();
+		Thread.sleep(500);
+		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		Assert.assertEquals(true,Page_Title.isDisplayed());
+		VerifyTitle();
+	}
+	catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+	}
+	
+	//8 Address With More than 255 Character
+	@SuppressWarnings("deprecation")
+	public void Address_With_More_Than_255_Character(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
+			String AdminPassword,String ConfirmPassword,String PhoneNumber,String Date,String Branch,String Gender,String Country,
+			String State,String City,String Address)
+	{
+		
+	try
+	{
+		LoginEmail(LoginEmail);
+		LoginPassword(LoginPassword);
+		SignIn();
+		Thread.sleep(2000);
+		Btn_User();
+		System.out.println("Clicked user");
+		Btn_Admin();
+		Thread.sleep(2000);
+		Btn_Add_Admin();
+		Thread.sleep(1000);
+		Enter_FirstName(FirstName);
+		Thread.sleep(500);
+		Enter_MiddleName(MiddleName);
+		Thread.sleep(500);
+		Enter_LastName(LastName);
+		Thread.sleep(1000);
+		Enter_Email(AdminEmail);
+		Enter_Password(AdminPassword);
+		Thread.sleep(1000);
+		Enter_Confirm_Password(ConfirmPassword);
+		Enter_Phone_Number(PhoneNumber);
+		Thread.sleep(1000);
+		Enter_Date(Date);
+		Branch(Branch);
+		Thread.sleep(1000);
+		Gender(Gender);
+		Enter_Country(Country);
+		Thread.sleep(1000);
+		Enter_State(State);
+		Enter_City(City);
+		Thread.sleep(2000);
+		Enter_Address(Address);
+		Click_Submit();
+		Thread.sleep(500);
+		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		Assert.assertEquals(true,Page_Title.isDisplayed());
+		VerifyTitle();
+	}
+	catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+	}
+	
+	
+	
+	
+	//9 Address with Less than 3 Character 
+	@SuppressWarnings("deprecation")
+	public void Address_With_Less_Character_Spaces(String LoginEmail,String LoginPassword,String FirstName,String MiddleName,String LastName,String AdminEmail,
+			String AdminPassword,String ConfirmPassword,String PhoneNumber,String Date,String Branch,String Gender,String Country,
+			String State,String City,String Address)
+	{
+		
+	try
+	{
+		LoginEmail(LoginEmail);
+		LoginPassword(LoginPassword);
+		SignIn();
+		Thread.sleep(2000);
+		Btn_User();
+		System.out.println("Clicked user");
+		Btn_Admin();
+		Thread.sleep(2000);
+		Btn_Add_Admin();
+		Thread.sleep(1000);
+		Enter_FirstName(FirstName);
+		Thread.sleep(500);
+		Enter_MiddleName(MiddleName);
+		Thread.sleep(500);
+		Enter_LastName(LastName);
+		Thread.sleep(1000);
+		Enter_Email(AdminEmail);
+		Enter_Password(AdminPassword);
+		Thread.sleep(1000);
+		Enter_Confirm_Password(ConfirmPassword);
+		Enter_Phone_Number(PhoneNumber);
+		Thread.sleep(1000);
+		Enter_Date(Date);
+		Branch(Branch);
+		Thread.sleep(1000);
+		Gender(Gender);
+		Enter_Country(Country);
+		Thread.sleep(1000);
+		Enter_State(State);
+		Enter_City(City);
+		Thread.sleep(2000);
+		Enter_Address(Address);
+		Click_Submit();
+		Thread.sleep(500);
+		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		Assert.assertEquals(true,Page_Title.isDisplayed());
+		VerifyTitle();
 	}
 	catch(Exception e)
 	{

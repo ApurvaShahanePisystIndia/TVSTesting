@@ -3,15 +3,15 @@
 {
 	"loginemail":"masteradmin@gmail.com",
 	"loginpassword":"1",
-	"firstname":"Apurva",
-	"middlename":"Abhay",
-	"lastname":"Shahane",
-	"adminemail":"aaaapu@gmail.com",
+	"firstname":"Apu",
+	"middlename":"Abh",
+	"lastname":"Shahanea",
+	"adminemail":"aaaapur@gmail.com",
 	"adminpassword":"123456aA@",
 	"confirmpassword":"123456aA@",
-	"phonenumber" :"8208146369",
-	"date" :"06-10-2022",
-	"branch" :"Pune Automobiles",
+	"phonenumber" :"8208146367",
+	"date" :"06-10-2023",
+	"branch" :"Mumbai Automobiles",
 	"gender" :"Female",
 	"country":"India",
 	"state":"Maharashtra",
@@ -29,9 +29,9 @@
 	"adminemail":"aaaapugmail.com",
 	"adminpassword":"123",
 	"confirmpassword":"123456aA@",
-	"phonenumber" :"8208146369",
+	"phonenumber" :"820814636A",
 	"date" :"06-10-202",
-	"branch" :"Pune Automobiles",
+	"branch" :"Pune ",
 	"gender" :"Females",
 	"country":"Indi12",
 	"state":"Maharashtra56",
@@ -78,9 +78,20 @@
 	"city":"  ",
 	"address":"  "
 
+},
+"MoreCharacter":
+{
+"address":"aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaa bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbb cccccccccccccccccc ccccccccccccccccccccceeeeeeeeeeeeeeee eeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeee eeeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeefffffffffff ffffffffffffffffff fffffffffffffffff fffffffffffffffff ffffffffffffffffff fffffffffffffffff fffffffff fffffff fffffffffzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzz zzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzz zzzzzzzzz zzzzzzzzz fffffffff fffffffffffffff fffffffffffff ffffffffffffff ffffffffffff fffffffffff ffffffffffffffff fffffffff"                                          
+
+
+
+},
+"LessCharacter":
+{
+"address":"AA"
+
+
 }
-
-
 
 
 

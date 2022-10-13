@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Add Admin]">
-  <test thread-count="5" name="TVS_Admin_Add_Admin_TestCase(failed)">
+  <test thread-count="5" name="TVS_Admin_Add_Customer_TestCase(failed)">
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://192.168.1.13/showroom/admin/login"/>
     <classes>
-      <class name="TestCase.TVS_Admin_Add_Admin_TestCase">
+      <class name="TestCase.TVS_Admin_Add_Customer_TestCase">
         <methods>
-          <include name="setup"/>
-          <include name="Add_Valid_Data"/>
+          <include name="Add_InValid_Data"/>
           <include name="beforeClass"/>
+          <include name="Add_Address_With_Less_Character"/>
+          <include name="Add_Blank_Data"/>
+          <include name="Add_Valid_Data"/>
+          <include name="Add_Double_Spaces"/>
+          <include name="setup"/>
+          <include name="Add_Address_With_More_255_Character"/>
         </methods>
-      </class> <!-- TestCase.TVS_Admin_Add_Admin_TestCase -->
+      </class> <!-- TestCase.TVS_Admin_Add_Customer_TestCase -->
     </classes>
-  </test> <!-- TVS_Admin_Add_Admin_TestCase(failed) -->
+  </test> <!-- TVS_Admin_Add_Customer_TestCase(failed) -->
 </suite> <!-- Failed suite [Add Admin] -->

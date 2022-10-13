@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-06T17:36:50 IST" name="Add Admin" finished-at="2022-10-06T17:37:01 IST" duration-ms="10818">
+  <suite started-at="2022-10-10T10:40:01 IST" name="Add Admin" finished-at="2022-10-10T10:40:25 IST" duration-ms="23246">
     <groups>
     </groups>
-    <test started-at="2022-10-06T17:36:50 IST" name="TVS_Admin_Add_Admin_TestCase" finished-at="2022-10-06T17:37:01 IST" duration-ms="10818">
-      <class name="TestCase.TVS_Admin_Add_Admin_TestCase">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCase.TVS_Admin_Add_Admin_TestCase@dd8ba08]" started-at="2022-10-06T17:36:50 IST" name="beforeClass" finished-at="2022-10-06T17:36:50 IST" duration-ms="10" status="PASS">
+    <test started-at="2022-10-10T10:40:01 IST" name="TVS_Admin_Add_Customer_TestCase" finished-at="2022-10-10T10:40:25 IST" duration-ms="23246">
+      <class name="TestCase.TVS_Admin_Add_Customer_TestCase">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCase.TVS_Admin_Add_Customer_TestCase@dd8ba08]" started-at="2022-10-10T10:40:01 IST" name="beforeClass" finished-at="2022-10-10T10:40:01 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TVS_Admin_Add_Admin_TestCase@dd8ba08]" started-at="2022-10-06T17:36:50 IST" name="setup" finished-at="2022-10-06T17:36:55 IST" duration-ms="5255" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TVS_Admin_Add_Customer_TestCase@dd8ba08]" started-at="2022-10-10T10:40:02 IST" name="setup" finished-at="2022-10-10T10:40:05 IST" duration-ms="3705" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,18 +20,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[http://192.168.1.13/showroom/admin/login]]>
+                <![CDATA[http://192.168.1.17/showroom/admin/login]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Add_InValid_Data()[pri:2, instance:TestCase.TVS_Admin_Add_Admin_TestCase@dd8ba08]" started-at="2022-10-06T17:36:55 IST" name="Add_InValid_Data" finished-at="2022-10-06T17:37:01 IST" duration-ms="5521" status="PASS">
+        <test-method signature="Add_InValid_Data()[pri:2, instance:TestCase.TVS_Admin_Add_Customer_TestCase@dd8ba08]" started-at="2022-10-10T10:40:05 IST" name="Add_InValid_Data" finished-at="2022-10-10T10:40:25 IST" duration-ms="19503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Add_InValid_Data -->
-      </class> <!-- TestCase.TVS_Admin_Add_Admin_TestCase -->
-    </test> <!-- TVS_Admin_Add_Admin_TestCase -->
+      </class> <!-- TestCase.TVS_Admin_Add_Customer_TestCase -->
+    </test> <!-- TVS_Admin_Add_Customer_TestCase -->
   </suite> <!-- Add Admin -->
 </testng-results>
