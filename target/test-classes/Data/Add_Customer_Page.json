@@ -1,0 +1,96 @@
+{
+"ValidData":
+{
+	"loginemail":"masteradmin@gmail.com",
+	"loginpassword":"1",
+	"firstname":"SubAdm",
+	"middlename":"Adm",
+	"lastname":"Demoss",
+	"customeremail":"subadminssesss@gmail.com",
+	"phonenumber" :"8208146322",
+	"date" :"01-11-2024",
+	"branch" :"Aurangabad Automobiles",
+	"customertype":"Businesss to Customer",
+	"gender" :"Male",
+	"country":"India",
+	"state":"Maharashtra",
+	"city":"Nashik",
+	"address":"H.No 1522,Thite Nagar Pune"
+
+},
+"InValidData":
+{
+	"firstname":"Ap 123",
+	"middlename":"123@",
+	"lastname":"!@#$%",
+	"customeremail":"subadminssesssgmail.com",
+	"phonenumber" :"820814632A",
+	"date" :"01-11-20240",
+	"branch" :"Aurangabad Automobilesss",
+	"customertype":"Businesss to Customer",
+	"gender" :"Males",
+	"country":"Indias",
+	"state":"Maharashtras",
+	"city":"Nashiks",
+	"address":"H.No 1522,Thite Nagar Punes"
+
+},
+"BlankData":
+{
+	"firstname":"",
+	"middlename":"",
+	"lastname":"",
+	"customeremail":"",
+	"phonenumber" :"",
+	"date" :"",
+	"branch" :"",
+	"customertype":"",
+	"gender" :"",
+	"country":"",
+	"state":"",
+	"city":"",
+	"address":""
+
+},
+"DoubleSpaceData":
+{
+	"firstname":"   ",
+	"middlename":"    ",
+	"lastname":"  ",
+	"customeremail":"",
+	"phonenumber" :"",
+	"date" :"               ",
+	"branch" :"          ",
+	"customertype":"      ",
+	"gender" :"     ",
+	"country":"       ",
+	"state":"  ",
+	"city":" ",
+	"address":"  "
+
+},
+"MoreCharacter":
+{
+"address":"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz ffffffffffffffffffffffffffffff ppppppppppppppppppppppppppppppp poipoipopipoipoipoipoipoipoipoioioipoipoipoipoipoipoi poipoipipoipoipoipipipipipoioipipoi bbbbbbbbbbbbbbbbbbbbbbbbb sssssssssssssssssssssssssss qqqqqqqqqqqqqqqqqqqqqqqqqqqq ssssssssssssssssssss cccccccccccccccccc ccccccccccccccccccccceeeeeeeeeeeeeeee eeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeee eeeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeefffffffffff ffffffffffffffffff fffffffffffffffff fffffffffffffffff ffffffffffffffffff fffffffffffffffff fffffffff fffffff fffffffffzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzz zzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz   fffffffffff  fffffffff"                                          
+
+
+
+},
+"LessCharacter":
+{
+"address":"AA"
+
+
+}
+
+
+
+
+}
+
+	
+	
+	
+	
+	
+	

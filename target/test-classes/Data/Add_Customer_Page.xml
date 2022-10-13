@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Add Admin" verbose="1" >
+  <test name="TVS_Admin_Add_Customer_TestCase" >  
+  <parameter name ="browser" value = "chrome"/>
+   <parameter name ="url" value = "http://192.168.1.17/showroom/admin/login"/>
+    <classes>
+       <class name="TestCase.TVS_Admin_Add_Customer_TestCase" />
+    </classes>
+  </test>
+ </suite>

@@ -1,0 +1,106 @@
+{
+"ValidData":
+{
+	"loginemail":"masteradmin@gmail.com",
+	"loginpassword":"1",
+	"firstname":"SubAdm",
+	"middlename":"Adm",
+	"lastname":"Demoss",
+	"adminemail":"subadminssesss@gmail.com",
+	"adminpassword":"123456aA@",
+	"confirmpassword":"123456aA@",
+	"phonenumber" :"8208146322",
+	"date" :"01-11-2024",
+	"branch" :"Aurangabad Automobiles",
+	"gender" :"Male",
+	"country":"India",
+	"state":"Maharashtra",
+	"city":"Nashik",
+	"address":"H.No 1522,Thite Nagar Pune"
+
+},
+"InValidData":
+{
+	"loginemail":"masteradmin@gmail.com",
+	"loginpassword":"1",
+	"firstname":"Ap 123",
+	"middlename":"Abhay",
+	"lastname":"Shahane",
+	"adminemail":"aaaapugmail.com",
+	"adminpassword":"123",
+	"confirmpassword":"123456aA@",
+	"phonenumber" :"820814636A",
+	"date" :"06-10-202",
+	"branch" :"Pune ",
+	"gender" :"Females",
+	"country":"Indi12",
+	"state":"Maharashtra56",
+	"city":"Nashik1",
+	"address":"H.No 1522,Near Bank of Barodass   jio        "
+
+},
+"BlankData":
+{
+	"loginemail":"",
+	"loginpassword":"",
+	"firstname":"",
+	"middlename":"",
+	"lastname":"",
+	"adminemail":"",
+	"adminpassword":"",
+	"confirmpassword":"",
+	"phonenumber" :"",
+	"date" :"",
+	"branch" :"",
+	"gender" :"",
+	"country":"",
+	"state":"",
+	"city":"",
+	"address":""
+
+},
+"DoubleSpaceData":
+{
+	"loginemail":"    ",
+	"loginpassword":"  ",
+	"firstname":"   ",
+	"middlename":" ",
+	"lastname":"  ",
+	"adminemail":"  ",
+	"adminpassword":"  ",
+	"confirmpassword":"  ",
+	"phonenumber" :"  ",
+	"date" :"  ",
+	"branch" :"   ",
+	"gender" :"  ",
+	"country":"  ",
+	"state":"  ",
+	"city":"  ",
+	"address":"  "
+
+},
+"MoreCharacter":
+{
+"address":"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz ffffffffffffffffffffffffffffff ppppppppppppppppppppppppppppppp poipoipopipoipoipoipoipoipoipoioioipoipoipoipoipoipoi poipoipipoipoipoipipipipipoioipipoi bbbbbbbbbbbbbbbbbbbbbbbbb sssssssssssssssssssssssssss qqqqqqqqqqqqqqqqqqqqqqqqqqqq ssssssssssssssssssss cccccccccccccccccc ccccccccccccccccccccceeeeeeeeeeeeeeee eeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeee eeeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeefffffffffff ffffffffffffffffff fffffffffffffffff fffffffffffffffff ffffffffffffffffff fffffffffffffffff fffffffff fffffff fffffffffzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzz zzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz   fffffffffff  fffffffff"                                          
+
+
+
+},
+"LessCharacter":
+{
+"address":"AA"
+
+
+}
+
+
+
+
+}
+
+	
+	
+	
+	
+	
+	
